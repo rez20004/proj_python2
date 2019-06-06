@@ -8,7 +8,7 @@ spec:
   source:
     git:
       ref: master
-      uri: <your git repository link>
+      uri: https://github.com/rez20004/untitled1
   strategy:
     jenkinsPipelineStrategy:
       jenkinsfilePath: path/to/Jenkinsfile
