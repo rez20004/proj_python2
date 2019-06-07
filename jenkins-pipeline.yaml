@@ -8,10 +8,10 @@ spec:
   source:
     git:
       ref: master
-      uri: https://github.com/rez20004/untitled1
+      uri: https://github.com/rez20004/mynewapp
   strategy:
     jenkinsPipelineStrategy:
-      jenkinsfilePath: path/to/Jenkinsfile
+      jenkinsfilePath: .
     type: JenkinsPipeline
   triggers:
     - github:
